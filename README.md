@@ -36,12 +36,14 @@ This is a web-based **Huffman Text Compressor** built using **React**. It demons
 ---
 
 ## 📺 Live Demo
-```html
+
 <video controls autoplay loop muted width="100%">
   <source src="https://drive.google.com/file/d/1qsGryRH_pDgMMQYiX5KNJhH1p7OUXQq5/view" type="video/mp4">
-  Your browser does not support the video tag. See the [live demo here]https://huffman-compression-ten.vercel.app
+  
+  [live demo here]
+  https://huffman-compression-ten.vercel.app
 </video>
-```
+
 
 
 
@@ -64,10 +66,10 @@ cd huffman-compression-app
 npm install react react-dom # If you're building from scratch and didn't use create-react-app
 # If using create-react-app, these are included.
 ```
-Note: Tailwind CSS is included via CDN in ``html public/index.html`` for simplicity in this demo, so no separate npm ``html install tailwindcss`` is required for basic functionality.
+Note: Tailwind CSS is included via CDN in ``public/index.html`` for simplicity in this demo, so no separate npm ``install tailwindcss`` is required for basic functionality.
 
 3. **Place the code:**
-The entire application's React code is consolidated into a single ``html App.js `` file for ease of demonstration in environments that struggle with module imports.
+The entire application's React code is consolidated into a single `` App.js `` file for ease of demonstration in environments that struggle with module imports.
 
 - Create a standard Create React App project:
 ```bash
@@ -75,9 +77,9 @@ npx create-react-app huffman-compressor-react
 cd huffman-compressor-react
 ```
 
-- Replace the content of ``html src/App.js `` with the provided consolidated ``html App.js`` code.
+- Replace the content of ``src/App.js `` with the provided consolidated ``App.js`` code.
 
-- Ensure your ``html public/index.html`` has the Tailwind CSS CDN link in its <head> section:
+- Ensure your `` public/index.html`` has the Tailwind CSS CDN link in its <head> section:
 ```bash
 <!-- In public/index.html <head> tag -->
 <script src="https://cdn.tailwindcss.com"></script>
@@ -101,7 +103,7 @@ npm start
 
 
 ## Project Sturcture(Conceputal for larger apps)
-While this demo consolidates code into ``html App.js`` for ease of use in certain environments, a larger, production-ready application would typically follow a modular structure like:
+While this demo consolidates code into ``App.js`` for ease of use in certain environments, a larger, production-ready application would typically follow a modular structure like:
 
 ```bash
 huffman-compressor/
