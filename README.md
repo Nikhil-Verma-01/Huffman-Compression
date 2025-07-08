@@ -37,12 +37,10 @@ This is a web-based **Huffman Text Compressor** built using **React**. It demons
 
 ## 📺 Live Demo
 
-<video controls autoplay loop muted width="100%">
-  <source src="https://drive.google.com/file/d/1qsGryRH_pDgMMQYiX5KNJhH1p7OUXQq5/view" type="video/mp4">
-  
-  [live demo here]
+```bash
   https://huffman-compression-ten.vercel.app
-</video>
+```
+
 
 
 
