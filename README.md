@@ -103,7 +103,7 @@ npm start
 ## Project Sturcture(Conceputal for larger apps)
 While this demo consolidates code into ``html App.js`` for ease of use in certain environments, a larger, production-ready application would typically follow a modular structure like:
 
-``bash
+```bash
 huffman-compressor/
 ├── public/
 │   └── index.html
